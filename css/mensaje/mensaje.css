@@ -9,7 +9,7 @@
 
 .mensaje::before {
   content: "";
-  background-image: url(assets/img/contact_bg.png);
+  background-image: url(/Mi-Portafolio/assets/img/contact_bg.png);
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
