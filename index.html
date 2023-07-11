@@ -1,223 +1,381 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio Brayan</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brayan's Portafolio</title>
 
-    <!-- <link rel="icon" href="assets/img/favicon.png"> L -->
-    
-    <!-- Libreria de fontAwesome para iconos -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    <!-- Libreria de Google font para las fuentes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet" />
+  <link rel="icon" href="assets/img/letra-b (2).png">
 
+  <!-- Libreria de fontAwesome para iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Libreria de Google font para las fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+    
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/css/base/base.css" />
+  <link rel="stylesheet" href="/css/cabecera.css" />
+  <link rel="stylesheet" href="/css/logo/logo-titulo.css" />
+  <link rel="stylesheet" href="/css/menu/menu.css" />
+  <link rel="stylesheet" href="/css/barras/barras.css" />
+  <link rel="stylesheet" href="/css/banner.css" />
+
+  <link rel="stylesheet" href="/css/perfil/perfil.css" />
+  <link rel="stylesheet" href="/css/redes/redes.css" />
+  <link rel="stylesheet" href="/css/informacion/informacion.css" />
+  <link rel="stylesheet" href="/css/tarjeta/tarjeta.css" />
+  <link rel="stylesheet" href="/css/hobbies.css" />
+  <link rel="stylesheet" href="/css/hobbie/hobbie.css" />
+  <link rel="stylesheet" href="/css/habilidades.css" />
+  <link rel="stylesheet" href="/css/habilidad/habilidad.css" />
+  <link rel="stylesheet" href="/css/formaciones.css" />
+  <link rel="stylesheet" href="/css/formacion/formacion.css" />
+  <link rel="stylesheet" href="/css/proyectos.css" />
+  <link rel="stylesheet" href="/css/proyecto/proyecto.css" />
+  <link rel="stylesheet" href="/css/implementos/implementos.css" />
+  <link rel="stylesheet" href="/css/contacto.css" />
+  <link rel="stylesheet" href="/css/mensaje/mensaje.css" />
+  <link rel="stylesheet" href="/css/entradas/entradas.css" />
+  <link rel="stylesheet" href="/css/entrada/entrada.css" />
+  <link rel="stylesheet" href="/css/rodapie.css" />
+
+  <link rel="stylesheet" href="/css/starts.css">
+  
 </head>
+
 <body>
-    <header>
+  <header class="cabecera">
+    <div class="cabecera__bloque contenedor">
+      <a class="logo" href="#">
+        <h2 class="logo__titulo">Brayan Angarita<span>.</span></h2>
+      </a>
+      <nav class="menu" id="menu">
+        <ul class="menu__lista">
+          <li class="menu__item">
+            <a href="#inicio" class="menu__link menu__link--active">Inicio</a>
+          </li>
+          <li class="menu__item">
+            <a href="#sobremi" class="menu__link">Sobre mi</a>
+          </li>
+          <li class="menu__item">
+            <a href="#habilidades" class="menu__link">Habilidades</a>
+          </li>
+          <li class="menu__item">
+            <a href="#formacion" class="menu__link">Formación</a>
+          </li>
+          <li class="menu__item">
+            <a href="#proyectos" class="menu__link">Proyectos</a>
+          </li>
+          <li class="menu__item">
+            <a href="#contactame" class="menu__link">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="barras">
+        <span class="barras__linea1"></span>
+        <span class="barras__linea2"></span>
+        <span class="barras__linea3"></span>
+      </div>
+    </div>
 
-        <div class="cabecera__bloque contenedor">
-            <a class="logo" href="#">
-                <h2 class="logo__titulo">Brayan Angarita<span>.</span></h2>
+  </header>
+  <main>
+    <section class="banner" id="inicio">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+
+      <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+      <div class="perfil">
+        <div class="perfil__img"></div>
+        <h1 class="perfil__nombre">Brayan Angarita</h1>
+        <p class="perfil__descripcion">Soy <span id="typed"></span></p>
+        <ul class="redes">
+          <li class="redes__item">
+            <a class="redes__link" href="https://github.com/BrayanCode11" target="_blank">
+              <i class="redes__icon fa-brands fa-github"></i>
             </a>
+          </li>
+          <li class="redes__item">
+            <a class="redes__link" href="https://www.linkedin.com/in/bangarita/"
+              target="_blank">
+              <i class="redes__icon fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+        <a class="perfil__boton" href="#sobremi">Conóceme<i class="fa-solid fa-arrow-turn-down"></i></a>
+        </a>
+      </div>
 
-            <nav class="menu" id="menu">
-                <ul class="menu__lista">
-                <li class="menu__item">
-                    <a href="#inicio" class="menu__link menu__link--active">Inicio</a>
-                </li>
-                <li class="menu__item">
-                    <a href="#sobremi" class="menu__link">Sobre mi</a>
-                </li>
-                <li class="menu__item">
-                    <a href="#habilidades" class="menu__link">Habilidades</a>
-                </li>
-                <li class="menu__item">
-                    <a href="#formacion" class="menu__link">Formación</a>
-                </li>
-                <li class="menu__item">
-                    <a href="#proyectos" class="menu__link">Proyectos</a>
-                </li>
-                <li class="menu__item">
-                    <a href="#contactame" class="menu__link">Contacto</a>
-                </li>
-                </ul>
-            </nav>
+    </section>
+
+    <section class="contenedor seccion--item" id="sobremi">
+      <h1 class="titulo">Sobre mi</h1>
+      <div class="informacion">
+        <img class="informacion__foto" src="/assets/img/Foto__portafolio.jpg" alt="Avatar portafolio">
+        <div class="tarjeta">
+          <p class="tarjeta__info">
+            ¡Hola! Soy Brayan Angarita, un desarrollador web junior de Colombia apasionado por el mundo de la tecnología.
+            Estudio ingeniería mecatrónica en la Universidad Nacional de Colombia y me encanta resolver problemas técnicos y
+            escribir código. Me considero una persona autodidacta por lo que siempre estoy en constante aprendizaje.
+            <br><br>
+            Mi enfoque actual se centra en el desarrollo web específicamente en el Front-End, creando sitios atractivos y
+            funcionales que priorizan la experiencia del usuario. 
+            <br><br>
+            Si buscas un desarrollador web comprometido y apasionado, ¡estoy listo para ser parte de tu equipo!
+          </p>
+          <a class="tarjeta__boton boton" target="_blank" href="/assets/docs/Curriculum BrayanAngarita.pdf">Descargar
+            CV</a>
+        </div>
+      </div>
+
+      <div class="hobbies">
+        <div class="hobbie">
+          <i class="hobbie__icon fa-solid fa-person-walking" ></i>
+          <p class="hobbie__dato">Entrenar</p>
+        </div>
+        <div class="hobbie">
+          <i class="hobbie__icon fa-solid fa-guitar"></i>
+          <p class="hobbie__dato">Guitarra</p>
+        </div>
+        <div class="hobbie">
+          <i class="hobbie__icon fa-solid fa-gamepad"></i>
+          <p class="hobbie__dato">Videojuegos</p>
+        </div>
+        <div class="hobbie">
+          <i class="hobbie__icon fa-solid fa-film"></i>
+          <p class="hobbie__dato">Series y Peliculas</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contenedor seccion--item" id="habilidades">
+      <h1 class="titulo">Habilidades</h1>
+      <div class="habilidades">
+        <div class="habilidad">
+          <img class="habilidad__img" src="/assets/img/icon-html5.svg" alt="HTML 5">
+          <p class="habilidad__nombre">HTML 5</p>
+        </div>
+        <div class="habilidad">
+          <img class="habilidad__img" src="/assets/img/icon-css3.svg" alt="HTML 5">
+          <p class="habilidad__nombre">CSS 3</p>
+        </div>
+        <div class="habilidad">
+          <img class="habilidad__img" src="/assets/img/icon-javascript.svg" alt="HTML 5">
+          <p class="habilidad__nombre">javascript</p>
+        </div>
+        <div class="habilidad">
+          <img class="habilidad__img" src="/assets/img/icon-wordpress.svg" alt="HTML 5">
+          <p class="habilidad__nombre">Wordpress</p>
+        </div>
+        <div class="habilidad">
+          <img class="habilidad__img" src="/assets/img/icon-sass.svg" alt="HTML 5">
+          <p class="habilidad__nombre">Sass</p>
+        </div>
+        <div class="habilidad">
+          <img class="habilidad__img" src="/assets/img/icon-figma.svg" alt="HTML 5">
+          <p class="habilidad__nombre">Figma</p>
+        </div>
+        <div class="habilidad">
+          <img class="habilidad__img" src="/assets/img/icon-git.svg" alt="HTML 5">
+          <p class="habilidad__nombre">Git</p>
+        </div>
+        <div class="habilidad">
+          <img class="habilidad__img" src="/assets/img/icon-github.svg" alt="HTML 5">
+          <p class="habilidad__nombre">Github</p>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="contenedor seccion--item" id="formacion">
+      <h1 class="titulo">Formación académica</h1>
+      <div class="formaciones">
+        <div class="formacion">
+          <img class="formacion__img formacion__img--unal" src="/assets/img/logo-unal.png"
+            alt="logo Universidad Nacional de Colombia" />
+          <p class="formacion__fecha">En curso</p>
+          <h3 class="formacion__titulo">Ingeniería Mecatrónica</h3>
+        </div>
+        <div class="formacion">
+          <img class="formacion__img formacion__img--alura" src="/assets/img/logo-alura.png" alt="logo de alura" />
+          <p class="formacion__fecha">12/2022 - 06/2023</p>
+          <h3 class="formacion__titulo">Desarrollador Front-End</h3>
+        </div>
+        <div class="formacion">
+          <img class="formacion__img formacion__img--sena" src="/assets/img/logo-Sena.png"
+            alt="logo del Sena" />
+          <p class="formacion__fecha"> 02/2018 - 11/2019</p>
+          <h3 class="formacion__titulo">Tecnología en Sistemas</h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="contenedor seccion--item" id="proyectos">
+      <h1 class="titulo">Proyectos</h1>
+      <ul class="proyectos">
+        <li class="proyecto">
+          <div class="proyecto__barra">
+            <h2 class="proyecto__titulo">Biciklo</h2>
+            <i></i>
           </div>
-    </header>
-
-    <main>
-        <section class="banner" id="inicio">
-            <div class="bubbles">
-              <span style="--i: 11"></span>
-              <span style="--i: 12"></span>
-              <span style="--i: 24"></span>
-              <span style="--i: 10"></span>
-              <span style="--i: 14"></span>
-              <span style="--i: 23"></span>
-              <span style="--i: 18"></span>
-              <span style="--i: 16"></span>
-              <span style="--i: 19"></span>
-              <span style="--i: 20"></span>
-              <span style="--i: 22"></span>
-              <span style="--i: 25"></span>
-              <span style="--i: 18"></span>
-              <span style="--i: 21"></span>
-              <span style="--i: 15"></span>
-              <span style="--i: 13"></span>
-              <span style="--i: 26"></span>
-              <span style="--i: 17"></span>
-              <span style="--i: 13"></span>
-              <span style="--i: 28"></span>
-              <span style="--i: 11"></span>
-              <span style="--i: 12"></span>
-              <span style="--i: 24"></span>
-              <span style="--i: 10"></span>
-              <span style="--i: 14"></span>
-              <span style="--i: 23"></span>
-              <span style="--i: 18"></span>
-              <span style="--i: 16"></span>
-              <span style="--i: 19"></span>
-              <span style="--i: 20"></span>
-              <span style="--i: 22"></span>
-              <span style="--i: 25"></span>
-              <span style="--i: 18"></span>
-              <span style="--i: 21"></span>
-              <span style="--i: 15"></span>
-              <span style="--i: 13"></span>
-            </div>
-            <div class="perfil">
-              <div class="perfil__img"></div>
-              <h1 class="perfil__nombre">Brayan Angarita</h1>
-              <p class="perfil__descripcion">Soy <span id="typed"></span></p>
-              <ul class="redes">
-                <li class="redes__item">
-                  <a class="redes__link" href="https://github.com/BrayanCode11" target="_blank">
-                    <i class="redes__icon fa-brands fa-github"></i>
-                  </a>
-                </li>
-                <li class="redes__item">
-                  <a class="redes__link" href="https://www.linkedin.com/in/bangarita/"
-                    target="_blank">
-                    <i class="redes__icon fa-brands fa-linkedin"></i>
-                  </a>
-                </li>
+          <div class="proyecto__tags">
+            <img class="proyecto__img biciklo__img" src="/assets/img/biker.svg" alt="Ciclista" />
+            <div class="implementos">
+              <ul class="implementos__item">
+                <li class="implementos__link">HMTL5</li>
+                <li class="implementos__link">CSS3</li>
+                <li class="implementos__link">Wordpress</li>
+                <li class="implementos__link">Plugins</li>
+                <li class="implementos__link">Cpanel</li>
+                <li class="implementos__link">Diseño responsivo</li>
               </ul>
-              <a class="perfil__boton" href="#sobremi">Conóceme<i class="fa-solid fa-arrow-turn-down"></i></a>
-              </a>
+              <div class="proyecto__botones">
+                <a class="proyecto__boton" href="https://biciklo.mura.com.co/" target="_blank">
+                  <i class="fa-solid fa-laptop-code"></i>Ver Web
+                </a>
+              </div>
             </div>
-          </section>
+          </div>
+        </li>
+        <li class="proyecto">
+          <div class="proyecto__barra">
+            <h2 class="proyecto__titulo">Encriptador de textos</h2>
+            <i></i>
+          </div>
+          <div class="proyecto__tags">
+            <img class="proyecto__img" src="/assets/img/p_encriptador.svg" alt="Encriptador de texto" />
+            <div class="implementos">
+              <ul class="implementos__item">
+                <li class="implementos__link">HMTL5</li>
+                <li class="implementos__link">CSS3</li>
+                <li class="implementos__link">Javascript</li>
+                <li class="implementos__link">Animación</li>
+                <li class="implementos__link">Diseño responsivo</li>
+              </ul>
+              <div class="proyecto__botones">
+                <a class="proyecto__boton" href="https://github.com/BrayanCode11/EncriptaONE/" target="_blank">
+                  <i class="fa-brands fa-github-alt"></i>Repositorio
+                </a>
+                <a class="proyecto__boton" href="https://brayancode11.github.io/EncriptaONE/" target="_blank">
+                  <i class="fa-solid fa-laptop-code"></i>Ver Demo
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        
+        <li class="proyecto">
+          <div class="proyecto__barra">
+            <h2 class="proyecto__titulo">Lista de tareas</h2>
+            <i></i>
+          </div>
+          <div class="proyecto__tags">
+            <img class="proyecto__img" src="/assets/img/p_todo.svg" alt="Lista de tareas" />
+            <div class="implementos">
+              <ul class="implementos__item">
+                <li class="implementos__link">HMTL5</li>
+                <li class="implementos__link">CSS3</li>
+                <li class="implementos__link">Javascript</li>
+                <li class="implementos__link">CRUD</li>
+                <li class="implementos__link">Diseño responsivo</li>
+              </ul>
+              <div class="proyecto__botones">
+                <a class="proyecto__boton" href="https://github.com/Tamago-Beta/ToDoList" target="_blank">
+                  <i class="fa-brands fa-github-alt"></i>Repositorio
+                </a>
+                <a class="proyecto__boton" href="https://tamago-beta.github.io/ToDoList/" target="_blank">
+                  <i class="fa-solid fa-laptop-code"></i>Ver Demo
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="proyecto">
+          <div class="proyecto__barra">
+            <h2 class="proyecto__titulo">Aplicacion del clima</h2>
+            <i></i>
+          </div>
+          <div class="proyecto__tags">
+            <img class="proyecto__img" src="assets/img/p_clima.svg" alt="Aplicacion del clima" />
+            <div class="implementos">
+              <ul class="implementos__item">
+                <li class="implementos__link">HMTL5</li>
+                <li class="implementos__link">CSS3</li>
+                <li class="implementos__link">Javascript</li>
+                <li class="implementos__link">Weather API</li>
+                <li class="implementos__link">Geolocalización</li>
+                <li class="implementos__link">Diseño responsivo</li>
+              </ul>
+              <div class="proyecto__botones">
+                <a class="proyecto__boton" href="https://github.com/Tamago-Beta/App-clima" target="_blank">
+                  <i class="fa-brands fa-github-alt"></i>Repositorio
+                </a>
+                <a class="proyecto__boton" href="https://tamago-beta.github.io/App-clima/" target="_blank">
+                  <i class="fa-solid fa-laptop-code"></i>Ver Demo
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
 
-          <section class="contenedor seccion--item" id="sobremi">
-            <h1 class="titulo">Sobre mi</h1>
-            <div class="informacion">
-              <img class="informacion__foto" src="assets/img/avatar__portafolio.svg" alt="Avatar portafolio">
-              <div class="tarjeta">
-                <p class="tarjeta__info">
-                  Soy Carlos Macavilca, desarrollador web junior de Lima, Perú. Poseo excelentes habilidades de comunicación
-                  y la capacidad de poder trabajar en equipo con dinamismo y creatividad. Me considero una persona
-                  autodidacta por lo que siempre estoy en constante aprendizaje.<br><br>
-                  Actualmente diseño y desarrollo sitios web dinámicos y responsivos, intentando siempre priorizar que la
-                  experiencia del usuario sea agradable ofreciendo un diseño atractivo y funciones adaptables.
-                </p>
-                <a class="tarjeta__boton boton" target="_blank" href="assets/docs/CarlosMacavilcaVásquezCV.pdf">Descargar
-                  CV</a>
+    <section class="contenedor seccion--item" id="contactame">
+      <h1 class="titulo">Ponte en contacto</h1>
+      <div class="contacto">
+        <div class="mensaje">
+          <h3 class="mensaje__titulo">¡Hablemos acerca de todo!</h3>
+          <p class="mensaje__email">¿No te gustan los formularios? Envíame un <a
+              href="mailto:elcorreoquequieres@correo.com">email.
+            </a>👋</p>
+        </div>
+        <form class="formulario" action="https://formspree.io/f/mgejekrb" method="POST" id="form">
+          <div class="entradas">
+            <div class="entradas--flex">
+              <div class="entrada">
+                <input class="entrada__caja" type="text" name="name" placeholder="Nombre" required data-tipo="name">
+                <span class="entrada__mensaje">Este campo no es valido</span>
+              </div>
+              <div class="entrada">
+                <input class="entrada__caja" type="email" name="email" placeholder="Correo" required data-tipo="email">
+                <span class="entrada__mensaje">Este campo no es valido</span>
               </div>
             </div>
-      
-            <div class="hobbies">
-              <div class="hobbie">
-                <i class="hobbie__icon fa-solid fa-person-walking"></i>
-                <p class="hobbie__dato">Caminar</p>
-              </div>
-              <div class="hobbie">
-                <i class="hobbie__icon fa-solid fa-headphones"></i>
-                <p class="hobbie__dato">Oir música</p>
-              </div>
-              <div class="hobbie">
-                <i class="hobbie__icon fa-solid fa-gamepad"></i>
-                <p class="hobbie__dato">Videojuegos</p>
-              </div>
-              <div class="hobbie">
-                <i class="hobbie__icon fa-solid fa-pencil"></i>
-                <p class="hobbie__dato">Dibujar</p>
-              </div>
+            <div class="entrada">
+              <input class="entrada__caja" type="text" name="subject" placeholder="Asunto" required data-tipo="subject">
+              <span class="entrada__mensaje">Este campo no es valido</span>
             </div>
-          </section>
-
-          <section class="contenedor seccion--item" id="habilidades">
-            <h1 class="titulo">Habilidades</h1>
-            <div class="habilidades">
-              <div class="habilidad">
-                <img class="habilidad__img" src="assets/img/icon-html5.svg" alt="HTML 5">
-                <p class="habilidad__nombre">HTML 5</p>
-              </div>
-              <div class="habilidad">
-                <img class="habilidad__img" src="assets/img/icon-css3.svg" alt="HTML 5">
-                <p class="habilidad__nombre">CSS 3</p>
-              </div>
-              <div class="habilidad">
-                <img class="habilidad__img" src="assets/img/icon-javascript.svg" alt="HTML 5">
-                <p class="habilidad__nombre">javascript</p>
-              </div>
-              <div class="habilidad">
-                <img class="habilidad__img" src="assets/img/icon-wordpress.svg" alt="HTML 5">
-                <p class="habilidad__nombre">Wordpress</p>
-              </div>
-              <div class="habilidad">
-                <img class="habilidad__img" src="assets/img/icon-sass.svg" alt="HTML 5">
-                <p class="habilidad__nombre">Sass</p>
-              </div>
-              <div class="habilidad">
-                <img class="habilidad__img" src="assets/img/icon-figma.svg" alt="HTML 5">
-                <p class="habilidad__nombre">Figma</p>
-              </div>
-              <div class="habilidad">
-                <img class="habilidad__img" src="assets/img/icon-git.svg" alt="HTML 5">
-                <p class="habilidad__nombre">Git</p>
-              </div>
-              <div class="habilidad">
-                <img class="habilidad__img" src="assets/img/icon-github.svg" alt="HTML 5">
-                <p class="habilidad__nombre">Github</p>
-              </div>
+            <div class="entrada">
+              <textarea class="entrada__caja entrada__caja--txtarea" name="message" cols="30" rows="10"
+                placeholder="Mensaje" required data-tipo="message"></textarea>
+              <span class="entrada__mensaje">Este campo no es valido</span>
             </div>
-            </div>
-          </section>
-
-          <section class="contenedor seccion--item" id="formacion">
-            <h1 class="titulo">Formación académica</h1>
-            <div class="formaciones">
-              <div class="formacion">
-                <img class="formacion__img formacion__img--autonoma" src="assets/img/logo-autonoma.png"
-                  alt="logo universidad autonoma del Perú" />
-                <p class="formacion__fecha">2019 - Autónoma</p>
-                <h3 class="formacion__titulo">Ingeniería de Sistemas</h3>
-              </div>
-              <div class="formacion">
-                <img class="formacion__img formacion__img--alura" src="assets/img/logo-alura.png" alt="logo de alura" />
-                <p class="formacion__fecha">En curso - Alura</p>
-                <h3 class="formacion__titulo">Formación en Front-End</h3>
-              </div>
-              <div class="formacion">
-                <img class="formacion__img formacion__img--idat" src="assets/img/logo-idat.png"
-                  alt="logo del instituo Idat" />
-                <p class="formacion__fecha">2021 - Idat</p>
-                <h3 class="formacion__titulo">Digitador Alfanumérico</h3>
-              </div>
-            </div>
-          </section>
-
-
-    </main>
+            <button class="entrada__boton boton" name="submit" type="submit">Enviar mensaje</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer class="rodapie">
+      <p class="rodapie__mensaje">Elaborado por Brayan Angarita | 2023</p>
+    </footer>
+  </main>
+  <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="/js/script.js" type="module"></script>
 </body>
+
 </html>
 
 

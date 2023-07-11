@@ -1,0 +1,23 @@
+.menu__link {
+  text-decoration: none;
+  color: var(--background);
+  font-weight: 600;
+  margin-left: 1rem;
+  font-size: 1.7rem;
+  transition: all 0.3s;
+}
+
+.menu__link:hover {
+  transform: translateY(20px);
+}
+
+.menu__link--active {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 1024px) {
+  .menu__link {
+    margin-left: 25px;
+    transition: color 0.2s ease-in;
+  }
+}

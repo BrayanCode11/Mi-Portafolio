@@ -1,0 +1,11 @@
+.formaciones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .formaciones {
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,14 @@
+.rodapie {
+  background: var(--color-primario);
+  margin-top: 3rem;
+  padding: 4rem 0;
+  text-align: center;
+  position: static;
+  bottom: 0;
+  width: 100%;
+}
+
+.rodapie__mensaje {
+  color: var(--color-cuaternario);
+  font-size: 1.4rem;
+}

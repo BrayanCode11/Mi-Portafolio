@@ -1,0 +1,14 @@
+.informacion__foto {
+  background: var(--color-primario);
+  object-fit: cover;
+  height: 170px;
+  width: 170px;
+  margin: auto;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .informacion__foto {
+    margin: unset;
+  }
+}
