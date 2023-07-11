@@ -1,5 +1,5 @@
 .perfil__img {
-  background: var(--color-cuaternario) url("assets/img/Foto__portafolio.jpg")
+  background: var(--color-cuaternario) url("/assets/img/Foto__portafolio.jpg")
     center / cover;
   width: 128px;
   height: 128px;
