@@ -1,7 +1,24 @@
 .proyecto__img {
-  width: 245px;
+  width: 70%;
 }
 
-.biciklo__img{
-  width: 300px;
+/* Estilos generales para pantallas pequeñas (teléfonos móviles) */
+@media (max-width: 768px) {
+  .biciklo__img{
+    width: 250px;
+  }
+}
+
+/* Estilos para tabletas y pantallas más grandes */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .biciklo__img{
+    width: 250px;
+  }
+}
+
+/* Estilos para pantallas de escritorio */
+@media (min-width: 1025px) {
+  .biciklo__img{
+    width: 300px;
+  }
 }
